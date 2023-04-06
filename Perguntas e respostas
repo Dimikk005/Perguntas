@@ -1,0 +1,126 @@
+#include <stdio.h>
+
+void limpa(){
+	scanf("%*[^\n]");
+	scanf("%*c");
+}
+
+int main()
+{
+	char resposta;
+	int nota;
+	
+	nota = 0;
+	
+	printf("1-Qual destes passwords foi o mais usado na internet?\n");
+	printf("\nA-a1b2c3  \nB-abcdef \nC-123456\n \n resposta e:");
+	scanf( "%c" , &resposta);
+	
+	if (resposta == 'c' || resposta == 'C'){
+		nota+=1;
+	}
+    limpa();
+	
+
+	printf("2-O que significa a sigla �www� na internet?\n");
+	printf("\nA-World wide web  \nB-Web world wide \nC-Web wide world\n \nresposta e:");
+	scanf( "%c" , &resposta);
+	
+	if (resposta == 'a' || resposta == 'A'){
+		nota+=1;
+	}
+    limpa();
+
+	
+	printf("3-Qual foi o primeiro tweet da hist�ria?\n");
+	printf("\nA-�Ol�, twitter�  \nB-�Ol�, mundo� \nC-�Estou preparando meu twitter�\n \nresposta e");
+	scanf( "%c" , &resposta);
+	
+	if (resposta == 'c' || resposta == 'C'){
+		nota+=1;
+	}
+    limpa();
+	
+	
+	printf("4-Qual foi a dura��o do primeiro v�deo do Youtube?\n");
+	printf("\nA-3 minutos  \nB-1 minuto \nC-18 segundos\n \nreposta e:");
+	scanf( "%c" , &resposta);
+	
+	if (resposta == 'c' || resposta == 'C'){
+		nota+=1;
+	}
+    limpa();
+	
+
+	printf("5-Em m�dia, quantas pesquisas totalmente novas s�o feitas no Google por dia?\n");
+	printf("\nA-1bilh�o  \nB-450 milh�es \nC-280 milh�es\n \nresposta e:");
+	scanf( "%c" , &resposta);
+	
+	if (resposta == 'b' || resposta == 'B'){
+		nota+=1;
+	}
+    limpa();
+	
+	
+	printf("6-Qual foi a primeira rede social da hist�ria da internet?\n");
+	printf("\nA-Classmate  \nB-MySpace \nC-Orkut\n \nresposta e:");
+	scanf( "%c" , &resposta);
+	
+	if (resposta == 'a' || resposta == 'A'){
+		nota+=1;
+	}
+    limpa();
+	
+	
+	printf("7-Quando foi criado o primeiro smartphone da hist�ria?\n");
+	printf("\nA-1994  \nB-2000 \nC-1998\n \nresposta e:");
+	scanf( "%c" , &resposta);
+	
+	if (resposta == 'a' || resposta == 'A'){
+		nota+=1;
+	}
+    limpa();
+
+
+	printf("8-Qual o nome do ataque cibern�tico que atingiu computadores no mundo todo este ano?\n");
+	printf("\nA-WannaSpy  \nB-WannaCry \nC-WannaFly\n \nresposta e:");
+	scanf( "%c" , &resposta);
+	
+	if (resposta == 'b' || resposta == 'B'){
+		nota+=1;
+	}
+    limpa();
+		
+
+	printf("9-Qual a resolu��o de uma imagem Full HD?\n");
+	printf("\nA-1920 x 1080  \nB-1280 x 720 \nC-2560 x 1440	\n \nresposta e:");
+	scanf( "%c" , &resposta);
+	
+	if (resposta == 'a' || resposta == 'A'){
+		nota+=1;
+	}
+    limpa();
+			
+		
+	printf("10-Quantos bits cabem em um byte?\n");
+	printf("\nA-8 bits  \nB-1 bit \nC-12 bits\n \nresposta e:");
+	scanf( "%c" , &resposta);
+	
+	if (resposta == 'a' || resposta == 'A'){
+		nota+=1;
+	}
+    limpa();
+		
+	printf("resultado e = %d", nota);	
+	
+	return 0;		
+	}	
+		
+
+
+
+		
+		
+		
+		
+
